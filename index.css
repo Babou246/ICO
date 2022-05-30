@@ -1,0 +1,22 @@
+
+body{
+    display: block;
+
+}
+/* Je voudrais aligner les elements dans le centre mais en colonnes */
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+/* Maintenant c'est le pointage du label a top:0px */
+header .menu{
+    position: absolute;
+    right: 920px;
+    font-size: 19px;
+    font-style: normal;
+    color: #ffffff;
+}

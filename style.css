@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* 1ere Partie */
+body{
+
+    background-color: #fff;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+}
+/* Notre entete de page */
+header{
+        background-color: rgb(36, 36, 97);
+
+}
+.header{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+    height: 410px;
+    padding-top: 100px;
+    color: #fff;
+}
+.light label{
+    color: #fff;
+    
+}
+.menu{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    flex-direction: column;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.431);
+}
+.menu span{
+    padding: 2px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+header #sigle{
+
+    padding: 20px 0;
+    font-size: 70px;
+}
+header #button{
+    position: relative;
+    top: 10px;
+
+}
+header .button{
+    width: 135px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.container{
+    padding-top: 30px;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+#tell{
+    padding: 20px 0;
+}
+#language{
+    padding: 20px 0;
+}
+.liste .list{
+    display: block;
+    align-content: stretch;
+}
+
+/* 2eme Partie */
+
+.right{
+    float: left;
+    width: 10%;
+    background-color: rgb(36, 36, 97);
+    height: 1500px;
+    left: -10%;
+}
+hr{
+    padding-left: 120px;
+}
+
+.right .image{
+    border-radius: 50%;
+}
+.right_o .o:hover{
+    color: aqua;
+}
+.right_o .o{
+    margin-top: 40px;
+}
+.image{
+    position: relative;
+    left: 42px;
+}
+.light{
+    float: right;
+    width: 100%;
+    border-left: 1px solid white;
+}
+.form_opacity{
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.616);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign{
+    position: relative;
+    top: 60px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-color: #fff;
+}
+.head{
+    padding: 4% 0;
+    display: flex;
+    color: #fff;
+    background-color: rgb(36, 36, 97);
+
+}
+.head span{
+    padding-left: 330px;
+    float: right;
+}
+form{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+form input{
+    width: 85%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+form h6{
+    opacity: .7;
+    padding: 18px 30px;
+    font-size: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+form input[type='submit']{
+    width: 100px;
+    display: flex;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 15px;
+    align-items: center;
+}
+#check{
+    display: none;
+}
+.light{
+    flex: 11;
+}
+.right{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    background-color: rgb(36, 36, 97);
+    align-items: center;
+}
+.right img{
+    margin: 40px 75px 0px 0;
+}
+.right ul{
+    margin: 40px;
+    align-items: center;
+}
+.right ul li{
+    padding: 20px;
+    text-align: center;
+}
+.hr{
+    margin: 0px 50px;
+}
+
+
+#check:checked~.right{
+    display: none;
+    transition: margin-right 2s, color 1s;
+}
+#check:checked~label{
+
+    position: relative;
+    left: -30%;
+}
